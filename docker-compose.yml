@@ -56,8 +56,9 @@ services:
       - RESPOND_TO_LIVECHAT=true
       - RESPOND_TO_EDITED=true
       - LISTEN_ON_ALL_PUBLIC=false
-      - ROCKETCHAT_AUTH=password
+      - ROCKETCHAT_AUTH=botnat
       - ROCKETCHAT_URL=rocketchat:3000
+      - ROCKETCHAT_USESSL=false
       - ROCKETCHAT_ROOM=GENERAL
       - ROCKETCHAT_USER=botnat
       - ROCKETCHAT_PASSWORD=botnatpass

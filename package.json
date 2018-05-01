@@ -5,11 +5,10 @@
   "author": "Diego Dorgam <diego.dorgam@rocket.chat>",
   "description": "NLP YAML oriented chatbot",
   "dependencies": {
-    "coffee-script": "*",
     "hubot": "^3.0.1",
     "hubot-help": "^0.2.2",
     "hubot-redis-brain": "0.0.4",
-    "hubot-rocketchat": "*",
+    "hubot-rocketchat": "^2.0.0",
     "js-yaml": "^3.2.5",
     "natural": "^0.5.0"
   },
